@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import "./login.css";
 import { BsFillEyeFill, BsFillEyeSlashFill } from "react-icons/bs";
 import Swal from "sweetalert2";
+import Navbar from "../navBar/NavBar";
 function Login() {
 	const navigate = useNavigate();
 
