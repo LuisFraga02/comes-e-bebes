@@ -4,3 +4,7 @@
     height: auto;
     width: auto;
 }
+
+.hover_underline:hover {
+    text-decoration: underline;
+}

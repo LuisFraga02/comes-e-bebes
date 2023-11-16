@@ -99,14 +99,29 @@ function Login() {
 							)}
 						</button>
 					</div>
-
-					<button
-						type="button"
-						onClick={fazerLogin}
-						className="btn btn-success m-2 rounded-1"
-					>
-						entrar
-					</button>
+					<div className="row p-3">
+						<button
+							type="button"
+							onClick={fazerLogin}
+							className="btn btn-success mx-2 rounded-1 col-2"
+						>
+							entrar
+						</button>
+						<div className="col">
+							<label htmlFor="criarConta" className="form-label">
+								ainda não tem uma conta? &nbsp;
+								<b
+									id="criarConta"
+									className="hover_underline py-2"
+									onClick={() => {
+										navigate("/CreateAccount");
+									}}
+								>
+									Criar agora
+								</b>
+							</label>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
